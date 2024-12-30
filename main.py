@@ -1,3 +1,4 @@
+
 from pynput import mouse, keyboard
 import pyautogui
 import time
@@ -132,8 +133,8 @@ def main():
 
         # If "invalid.png" is found, pause the search for "whisper.png" for 1 minute
         if search_for_invalid_image():
-            logger.info("Pausing search for 'whisper.png' for 1 minute due to invalid offer detection.")
-            time.sleep(60)  # Pause for 1 minute
+            logger.info("Pausing search for 'whisper.png' for 20 seconds due to invalid offer detection.")
+            time.sleep(20)  # Pause for 1 minute
 
         if find_and_click_image(reference_image_path, search_region, confidence=0.8):
             logger.info("Waiting for the next trade offer to appear...")

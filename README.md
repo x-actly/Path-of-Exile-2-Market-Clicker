@@ -1,47 +1,47 @@
 # Path of Exile 2 Market Clicker
 
-Dieses Skript wurde entwickelt, um Spielern von Path of Exile 2 einen zeitlichen Vorteil beim Handeln zu verschaffen. Es erkennt automatisch Handelsangebote, die auf dem Bildschirm erscheinen, und klickt sofort darauf. Dies erspart dem Benutzer das manuelle Überwachen und Klicken auf Angebote.
+This script was developed to give players of Path of Exile 2 a time advantage in trading. It automatically detects trade offers that appear on the screen and clicks on them immediately. This saves the user from manually monitoring and clicking on offers.
 
-## Funktionsweise
+## How it works
 
-Das Skript überwacht den Bildschirm nach einem bestimmten Bild (`whisper.png`), das anzeigt, dass ein neues Handelsangebot von einem anderen Spieler eingegangen ist. Sobald das Bild erkannt wird, klickt das Skript automatisch darauf, um das Angebot anzunehmen.
+The script monitors the screen for a specific image (whisper.png), which indicates that a new trade offer from another player has arrived. Once the image is detected, the script automatically clicks on it to accept the offer.
 
-## Verwendung
+## Usage
 
-1. **Suchbereich definieren**: Beim Start des Skripts wird der Benutzer aufgefordert, den Bereich des Bildschirms zu definieren, in dem die Handelsangebote erscheinen. Dies geschieht durch zwei Mausklicks: einen auf die obere linke Ecke und einen auf die untere rechte Ecke des Suchbereichs. Der Suchbereich sollte der Bereich sein, in dem der Whisper-Button erscheint, wenn ein Live-Angebot erscheint, damit das Skript darauf klicken kann.
+1. **Define Search Area**: Upon starting the script, the user will be prompted to define the area of the screen where trade offers will appear. This is done by clicking two points: one on the top-left corner and one on the bottom-right corner of the search area. The search area should be the area where the Whisper button appears when a live offer is displayed, so the script can click on it.
 
 2. **Hotkeys**:
-    - `p`: Pausiert oder setzt das Skript fort.
-    - `r`: Setzt den Suchbereich zurück.
-    - `q`: Beendet das Skript.
+    - `p`: Pauses or resumes the script.
+    - `r`: Resets the search area.
+    - `q`: Exits the script.
 
-3. **Automatische Erkennung**: Das Skript sucht kontinuierlich nach dem Begriff "whisper" im definierten Suchbereich. Wenn der Begriff gefunden wird, klickt das Skript automatisch darauf.
+3. **Automatic Detection**: The script continuously searches for the word "whisper" in the defined search area. When it is found, the script clicks on it automatically.
 
-4. **Fehlerhafte Angebote**: Wenn das Fenster "invalid offer" im Browser erscheint, pausiert das Skript die Suche nach neuen Angeboten für eine Minute, um die Seite nicht zu spammen.
+4. **Invalid Offers**: If the "invalid offer" window appears in the browser, the script pauses the search for new offers for one minute to avoid spamming the page.
 
 ## Voraussetzungen
 
 - Python 3.x
-- `pynput` Bibliothek
-- `pyautogui` Bibliothek
-- `opencv-python` Bibliothek
+- `pynput` library
+- `pyautogui` library
+- `opencv-python` library
 
 ## Installation
 
-1. Klone das Repository:
+1. Clone the respository:
     ```bash
     git clone https://github.com/DeinBenutzername/Path-of-Exile-2-Market-Clicker.git
     ```
-2. Installiere die benötigten Bibliotheken:
+2. Install the required libraries:
     ```bash
     pip install -r requirements.txt
     ```
-3. Starte das Skript:
+3. Run the script:
     ```bash
     python main.py
     ```
 
-## Hinweise
+## Notes
 
 This is an open-source project provided without any guarantees. Use it at your own risk.
 Please ensure that you comply with EVE Online's terms of use and policies. The use of bots or automation may violate the game's terms of service.
