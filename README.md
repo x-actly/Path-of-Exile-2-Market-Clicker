@@ -1,6 +1,7 @@
 # Path of Exile 2 Market Clicker
 
-This simple script was developed to give players of Path of Exile 2 a time advantage in trading. It automatically detects trade offers that appear on the screen and clicks on them immediately. This saves the user from manually monitoring and clicking on offers. The best way is to use the script on a second pc, meanwhile you can just keep playing and wait until a suitable offer is clicked.
+I`ve made this simple script to give players of Path of Exile 2 a time advantage in trading. It automatically detects trade offers that appear on the screen and clicks on them immediately. This saves the user from manually monitoring and clicking on offers.
+The best way is to use the script on a second pc, meanwhile you can just keep playing and wait until a suitable offer is clicked.
 
 [![Video auf YouTube](https://img.youtube.com/vi/4qMOas1E3r0/maxresdefault.jpg
 )](https://youtu.be/4qMOas1E3r0)
@@ -23,7 +24,7 @@ The script monitors the screen for a specific image (whisper.png), which indicat
 
 4. **Invalid Offers**: If the "invalid offer" window appears in the browser, the script pauses the search for new offers for one minute to avoid spamming the page.
 
-## Voraussetzungen
+## Requirements
 
 - Python 3.x
 - `pynput` library
@@ -48,7 +49,7 @@ The script monitors the screen for a specific image (whisper.png), which indicat
 ## Notes
 
 This is an open-source project provided without any guarantees. Use it at your own risk.
-Please ensure that you comply with EVE Online's terms of use and policies. The use of bots or automation may violate the game's terms of service.
+Please ensure that you comply with Path of Exile 2's terms of use and policies. The use of bots or automation may violate the game's terms of service.
 
 ## Build standalone exe file
 
