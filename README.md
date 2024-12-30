@@ -1,6 +1,10 @@
 # Path of Exile 2 Market Clicker
 
-This script was developed to give players of Path of Exile 2 a time advantage in trading. It automatically detects trade offers that appear on the screen and clicks on them immediately. This saves the user from manually monitoring and clicking on offers.
+This simple script was developed to give players of Path of Exile 2 a time advantage in trading. It automatically detects trade offers that appear on the screen and clicks on them immediately. This saves the user from manually monitoring and clicking on offers. The best way is to use the script on a second pc, meanwhile you can just keep playing and wait until a suitable offer is clicked.
+
+[![Video auf YouTube](https://img.youtube.com/vi/4qMOas1E3r0/maxresdefault.jpg
+)](https://youtu.be/4qMOas1E3r0)
+[youtube link]
 
 ## How it works
 
